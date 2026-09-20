@@ -1,0 +1,134 @@
+{
+  "dataset": "mIT_telephone_data_v2",
+  "split": "fold_0",
+  "raw_sample_counts": {
+    "full": 4146,
+    "outlier_speaker": 2530,
+    "rest_of_fold": 1616
+  },
+  "normalization_profile": "WER_norm_text_abbr_numbers",
+  "metric": "outlier_speaker_wer_pct minus rest_of_fold_wer_pct (each computed as a corpus-level WER over its own group, not a mean of per-utterance rates)",
+  "note": "WER is a corpus-level metric per group (outlier speaker's segments scored together, rest-of-fold segments scored together), not a mean of per-utterance rates.",
+  "rows": [
+    {
+      "model": "Whisper large-v3",
+      "variant": "Base",
+      "condition": "clean",
+      "full_wer_pct": 37.03,
+      "outlier_speaker_wer_pct": 42.92,
+      "rest_of_fold_wer_pct": 29.23,
+      "gap_pp": 13.68,
+      "gap_relative_pct": 46.81
+    },
+    {
+      "model": "Whisper large-v3",
+      "variant": "Base",
+      "condition": "N",
+      "full_wer_pct": 99.65,
+      "outlier_speaker_wer_pct": 118.12,
+      "rest_of_fold_wer_pct": 75.17,
+      "gap_pp": 42.95,
+      "gap_relative_pct": 57.14
+    },
+    {
+      "model": "Whisper large-v3",
+      "variant": "LoRA",
+      "condition": "clean",
+      "full_wer_pct": 29.21,
+      "outlier_speaker_wer_pct": 36.62,
+      "rest_of_fold_wer_pct": 19.4,
+      "gap_pp": 17.22,
+      "gap_relative_pct": 88.75
+    },
+    {
+      "model": "Whisper large-v3",
+      "variant": "LoRA",
+      "condition": "N",
+      "full_wer_pct": 65.76,
+      "outlier_speaker_wer_pct": 79.7,
+      "rest_of_fold_wer_pct": 47.27,
+      "gap_pp": 32.43,
+      "gap_relative_pct": 68.61
+    },
+    {
+      "model": "Parakeet-TDT",
+      "variant": "Base",
+      "condition": "clean",
+      "full_wer_pct": 36.38,
+      "outlier_speaker_wer_pct": 43.08,
+      "rest_of_fold_wer_pct": 27.49,
+      "gap_pp": 15.59,
+      "gap_relative_pct": 56.71
+    },
+    {
+      "model": "Parakeet-TDT",
+      "variant": "Base",
+      "condition": "N",
+      "full_wer_pct": 65.6,
+      "outlier_speaker_wer_pct": 76.44,
+      "rest_of_fold_wer_pct": 51.23,
+      "gap_pp": 25.21,
+      "gap_relative_pct": 49.21
+    },
+    {
+      "model": "Parakeet-TDT",
+      "variant": "LoRA",
+      "condition": "clean",
+      "full_wer_pct": 28.65,
+      "outlier_speaker_wer_pct": 34.95,
+      "rest_of_fold_wer_pct": 20.31,
+      "gap_pp": 14.64,
+      "gap_relative_pct": 72.1
+    },
+    {
+      "model": "Parakeet-TDT",
+      "variant": "LoRA",
+      "condition": "N",
+      "full_wer_pct": 53.9,
+      "outlier_speaker_wer_pct": 64.25,
+      "rest_of_fold_wer_pct": 40.17,
+      "gap_pp": 24.08,
+      "gap_relative_pct": 59.94
+    },
+    {
+      "model": "Voxtral-Mini",
+      "variant": "Base",
+      "condition": "clean",
+      "full_wer_pct": 57.18,
+      "outlier_speaker_wer_pct": 58.03,
+      "rest_of_fold_wer_pct": 56.05,
+      "gap_pp": 1.98,
+      "gap_relative_pct": 3.54
+    },
+    {
+      "model": "Voxtral-Mini",
+      "variant": "Base",
+      "condition": "N",
+      "full_wer_pct": 162.01,
+      "outlier_speaker_wer_pct": 199.99,
+      "rest_of_fold_wer_pct": 111.67,
+      "gap_pp": 88.32,
+      "gap_relative_pct": 79.1
+    },
+    {
+      "model": "Voxtral-Mini",
+      "variant": "LoRA",
+      "condition": "clean",
+      "full_wer_pct": 29.85,
+      "outlier_speaker_wer_pct": 38.29,
+      "rest_of_fold_wer_pct": 18.65,
+      "gap_pp": 19.63,
+      "gap_relative_pct": 105.26
+    },
+    {
+      "model": "Voxtral-Mini",
+      "variant": "LoRA",
+      "condition": "N",
+      "full_wer_pct": 68.36,
+      "outlier_speaker_wer_pct": 78.76,
+      "rest_of_fold_wer_pct": 54.57,
+      "gap_pp": 24.19,
+      "gap_relative_pct": 44.34
+    }
+  ]
+}

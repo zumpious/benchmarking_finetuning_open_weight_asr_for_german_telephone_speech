@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+type: dataset
+title: "Online Appendix: Benchmarking and Fine-Tuning Open-Weight ASR Foundation Models for Real-World German Telephone Speech"
+abstract: >-
+  Supplementary material for the ICASSP 2027 submission "Benchmarking
+  and Fine-Tuning Open-Weight ASR Foundation Models for Real-World
+  German Telephone Speech": full per-fold breakdowns, the complete
+  28-configuration LoRA search, the full degradation matrix,
+  normalization methodology, and inference settings that did not fit
+  the paper's page limit.
+authors:
+  - given-names: Jonas
+    family-names: Wagner
+    orcid: "https://orcid.org/0009-0004-4763-6724"
+    affiliation: "Leipzig University of Applied Sciences (HTWK Leipzig); mitteldeutsche IT GmbH"
+  - given-names: Jonathan
+    family-names: Wilke
+    orcid: "https://orcid.org/0009-0000-0999-6551"
+    affiliation: "mitteldeutsche IT GmbH"
+  - given-names: Aleyna
+    family-names: Pürcek
+    orcid: "https://orcid.org/0009-0000-2926-3486"
+    affiliation: "mitteldeutsche IT GmbH"
+  - given-names: Andreas
+    family-names: Both
+    orcid: "https://orcid.org/0000-0002-9177-5463"
+    affiliation: "Leipzig University of Applied Sciences (HTWK Leipzig)"
+repository-code: "https://github.com/zumpious/revision_data_repo_icassp_2027"
+url: "https://github.com/zumpious/revision_data_repo_icassp_2027"
+license: CC-BY-4.0
+date-released: "2026-09-20"
+preferred-citation:
+  type: conference-paper
+  title: "Benchmarking and Fine-Tuning Open-Weight ASR Foundation Models for Real-World German Telephone Speech"
+  year: 2027
+  # Venue details (DOI, pages, exact proceedings title) intentionally
+  # left out -- fill in once the paper is accepted, same as the
+  # \appendixdoi placeholder in main.tex pending a real Zenodo DOI.
+  conference:
+    name: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  authors:
+    - given-names: Jonas
+      family-names: Wagner
+      orcid: "https://orcid.org/0009-0004-4763-6724"
+    - given-names: Jonathan
+      family-names: Wilke
+      orcid: "https://orcid.org/0009-0000-0999-6551"
+    - given-names: Aleyna
+      family-names: Pürcek
+      orcid: "https://orcid.org/0009-0000-2926-3486"
+    - given-names: Andreas
+      family-names: Both
+      orcid: "https://orcid.org/0000-0002-9177-5463"
