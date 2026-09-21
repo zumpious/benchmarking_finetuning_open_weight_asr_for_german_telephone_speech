@@ -1,7 +1,15 @@
 # Online Appendix -- ICASSP 2027
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22857383.svg)](https://doi.org/10.5281/zenodo.22857383)
+
 Supplementary material for *Benchmarking and Fine-Tuning Open-Weight ASR
 Foundation Models for Real-World German Telephone Speech*.
+
+## How to cite
+
+This repository is archived on Zenodo: [10.5281/zenodo.22857383](https://doi.org/10.5281/zenodo.22857383).
+See [`CITATION.cff`](CITATION.cff) for full citation metadata (or use
+GitHub's "Cite this repository" button above the file list).
 
 ## What this paper does
 

@@ -26,17 +26,22 @@ authors:
     family-names: Both
     orcid: "https://orcid.org/0000-0002-9177-5463"
     affiliation: "Leipzig University of Applied Sciences (HTWK Leipzig)"
-repository-code: "https://github.com/zumpious/revision_data_repo_icassp_2027"
-url: "https://github.com/zumpious/revision_data_repo_icassp_2027"
+repository-code: "https://github.com/zumpious/benchmarking_finetuning_open_weight_asr_for_german_telephone_speech"
+url: "https://github.com/zumpious/benchmarking_finetuning_open_weight_asr_for_german_telephone_speech"
 license: CC-BY-4.0
 date-released: "2026-09-20"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22857383"
+    description: "Zenodo archive of this repository (v1.0.0)"
 preferred-citation:
   type: conference-paper
   title: "Benchmarking and Fine-Tuning Open-Weight ASR Foundation Models for Real-World German Telephone Speech"
   year: 2027
   # Venue details (DOI, pages, exact proceedings title) intentionally
-  # left out -- fill in once the paper is accepted, same as the
-  # \appendixdoi placeholder in main.tex pending a real Zenodo DOI.
+  # left out -- fill in once the paper is accepted. This is the
+  # associated paper's own DOI, separate from this repository's DOI
+  # above (identifiers), and is still pending publication.
   conference:
     name: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
   authors:
