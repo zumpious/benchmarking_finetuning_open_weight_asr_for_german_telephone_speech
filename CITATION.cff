@@ -32,8 +32,8 @@ license: CC-BY-4.0
 date-released: "2026-09-20"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.22857383"
-    description: "Zenodo archive of this repository (v1.0.0)"
+    value: "10.5281/zenodo.22857382"
+    description: "Zenodo concept DOI -- always resolves to the latest archived version of this repository"
 preferred-citation:
   type: conference-paper
   title: "Benchmarking and Fine-Tuning Open-Weight ASR Foundation Models for Real-World German Telephone Speech"
