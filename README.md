@@ -8,8 +8,7 @@ Foundation Models for Real-World German Telephone Speech*.
 ## How to cite
 
 This repository is archived on Zenodo: [10.5281/zenodo.22857382](https://doi.org/10.5281/zenodo.22857382).
-See [`CITATION.cff`](CITATION.cff) for full citation metadata (or use
-GitHub's "Cite this repository" button above the file list).
+See [`CITATION.cff`](CITATION.cff) for full citation metadata.
 
 ## What this paper does
 
@@ -58,6 +57,12 @@ order, linked to the file that backs it.
 | 28 LoRA configurations searched, three fold rotations, Whisper large-v3 only, `mIT v1` -- "all presented in the online appendix" | [`results/lora_search/lora_search_28_configs.md`](results/lora_search/lora_search_28_configs.md) |
 | Three configurations carried into the five-fold study | Same file, "Selected for 5-fold fine-tuning" |
 
+**Method, "Fine-tuning protocol"**
+
+| Paper claim | Evidence |
+|---|---|
+| "target-module names are mapped to the closest architecture-specific equivalents" | [`results/finetuning/target_module_mapping.md`](results/finetuning/target_module_mapping.md) (literal module names per architecture) |
+
 **Method, "Metrics"**
 
 | Paper claim | Evidence |
@@ -89,7 +94,7 @@ order, linked to the file that backs it.
 |---|---|
 | Tab. 3 caption: "Extended table: online appendix" | [`results/finetuning/regressioncheck_table.md`](results/finetuning/regressioncheck_table.md) |
 | Per-model relative gain ranges, external-corpora zero-shot WER ranges, CALLHOME/`mIT` clean and `N` ranges | [`results/finetuning/regressioncheck_table.md`](results/finetuning/regressioncheck_table.md) |
-| Fold 0 vs. folds 1-4 spread (7.2-10.2pp, mean 9.0pp); excluding fold 0 (1.4-2.0pp mean-WER change, ~4pp to 0.3-1.5pp SD change) | [`results/finetuning/transfer_table.md`](results/finetuning/transfer_table.md) |
+| Fold 0 vs. folds 1-4 spread (7.2-10.2pp); excluding fold 0 (1.4-2.0pp mean-WER change, ~4pp to 0.3-1.5pp SD change) | [`results/finetuning/transfer_table.md`](results/finetuning/transfer_table.md) |
 | Outlier speaker: 61.0% of fold 0's segments, WER gap vs. rest of fold 0 -- "chart: online appendix" | [`results/finetuning/outlier_speaker/`](results/finetuning/outlier_speaker/) |
 | `mIT` per-fold results (clean and `N`) -- "per-fold results: online appendix" | [`results/finetuning/regressioncheck_table.md`](results/finetuning/regressioncheck_table.md), "mIT" section |
 
