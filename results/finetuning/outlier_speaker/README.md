@@ -12,3 +12,12 @@ under the paper's single canonical normalization profile. WER here is a
 corpus-level metric per group (outlier speaker's segments scored
 together, rest-of-fold segments scored together), not a mean of
 per-utterance rates.
+
+## Caveat
+
+Base Voxtral-Mini's 199.99% WER on the outlier speaker under `N` is
+high enough to be a hallucination signature (insertion-heavy output on
+degraded audio, see the paper's Related Work) rather than genuine
+pronunciation difficulty. We have not run an S/D/I error decomposition
+to check this, so the dialect explanation for this speaker is not yet
+confirmed against that alternative.

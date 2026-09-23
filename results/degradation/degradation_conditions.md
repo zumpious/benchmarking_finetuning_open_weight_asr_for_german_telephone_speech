@@ -49,3 +49,11 @@ not reported here.
 WER above 100% reflects fabricated insertions by autoregressive decoders
 on degraded or silent input, not literal error rates -- see the paper's
 Related Work ("Hallucination").
+
+Model ranking is not stable across degradation types. At Noise 5dB
+alone, Voxtral-Mini and Qwen3-ASR are the two worst models (121.51%,
+123.40%); at Combined 5dB (C10) they're two of the three best (57.19%,
+59.98%), and both Whisper checkpoints are worst instead. C10 adds
+band-limiting and packet loss on top of noise, so a model's C10 rank
+does not predict its rank under noise alone. The paper reports only
+Clean and C10.

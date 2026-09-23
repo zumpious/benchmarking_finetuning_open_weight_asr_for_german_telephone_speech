@@ -88,3 +88,6 @@ across the three architectures. They are one setting reached two ways.
 - Fold 1 is the hard fold in mIT v1. In mIT v2 the hard fold is fold 0
   instead, driven by a single high-frequency, markedly-dialectal speaker
   (see the paper's Results, "Fine-tuning gains and regression check").
+  Both revisions land on the same kind of hard fold: one dialectal
+  speaker driving most of the spread, not the fold's position in the
+  split. The paper only discusses the mIT v2 case.
